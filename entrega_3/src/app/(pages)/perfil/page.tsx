@@ -24,13 +24,13 @@ function Perfil() {
                 </div>
             </div>
             <div className=' w-[30vw] h-[75vh] text-center'>
-            <div className="mt-10 text-xl pb-5 text-slate-50">
+            <div className="mt-10 text-xl text-slate-50">
                 <h1>Altere os seus dados</h1>
             </div>
                 <div className=" w-[20vw] ml-[5vw] flex items-start">
                     <label htmlFor="email">Email</label>
                 </div>
-                <div className=" mb-5">
+                <div className=" mb-2">
                     <input
 
                     type="email"
@@ -46,7 +46,7 @@ function Perfil() {
                 <div className=" w-[20vw] ml-[5vw] flex items-start">
                     <label htmlFor="user">Usuário</label>
                 </div>
-                <div className=" mb-5">
+                <div className=" mb-2">
                     <input
 
                     type="user"
@@ -64,15 +64,15 @@ function Perfil() {
                     <label htmlFor="senha">Senha</label>
                 </div>
                 <div>
-                    <input type="text" placeholder="Senha" className="mb-5 pl-2 w-[20vw] h-[6vh] rounded-2xl" />
+                    <input type="text" placeholder="Senha" className="mb-2 pl-2 w-[20vw] h-[6vh] rounded-2xl" />
                 </div>
                 <div className="w-[20vw] ml-[5vw] flex items-start ">
-                    <label htmlFor="senha2">Confirme sua senha</label>
+                    <label htmlFor="senha2">Confirmar senha</label>
                 </div>
                 <div>
-                    <input type="text" placeholder="Senha" className="mb-5 pl-2 w-[20vw] h-[6vh] rounded-2xl" />
+                    <input type="text" placeholder="Senha" className="mb-2 pl-2 w-[20vw] h-[6vh] rounded-2xl" />
                 </div>
-                <div className="w-[20vw] ml-[5vw] flex justify-around mt-5">
+                <div className="w-[20vw] ml-[5vw] flex justify-around mt-2">
                     <button className="w-[13vw] h-[5vh] bg-ivory rounded-[20px]"> Alterar </button>
                 </div>
             </div>
