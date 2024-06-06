@@ -32,7 +32,7 @@ function Home() {
                     id="busca"
                     name="busca"
                     required
-                    placeholder="Comentarr"
+                    placeholder="Comentar"
 
                     className=" mt-7 pl-2 w-[20vw] h-[6vh]"
 
