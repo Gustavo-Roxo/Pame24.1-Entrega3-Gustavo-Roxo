@@ -2,6 +2,7 @@ import Header from "@/app/componentes/header";
 import Image from "next/image";
 import Icon from "../../public/3021797.png"
 import LinkButton from "@/app/componentes/button";
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -36,10 +37,13 @@ export default function Home() {
           <label htmlFor="senha">Senha</label>
         </div>
         <div>
+
           <input type="text" placeholder="Senha" className=" pl-2 w-[30vw] h-[6vh] rounded-2xl" />
         </div>
         <div className="w-[30vw] ml-[5vw] flex justify-around mt-5">
+        <Link href={"home"}>
           <button className="w-[13vw] h-[5vh] bg-ivory rounded-[20px]"> Entrar </button>
+        </Link>
           <LinkButton name={"Cadastrar"} rota={"cadastro"}></LinkButton>
         </div>
       </div>
